@@ -1,0 +1,13 @@
+Steps to run the dice game application:
+1. Make sure you have 'Laragon' or 'Xampp' to run the app
+2. Move the 'dice' folder into the www (if Laragon) or htdocs (if xampp) folder
+3. Open Terminal, navigate to the location 'dice'
+4. type 'php artisan migrate', then enter
+5. type 'php artisan optimize', then enter
+6. type 'php artisan serve', then enter
+7. Open the browser, then go to the url 'http://localhost:8000/dice'
+8. Good luck!!!
+
+How to play :
+1. Enter the player and dice, then click submit
+2. Click 'count score', then 'next role', until a winner appears
